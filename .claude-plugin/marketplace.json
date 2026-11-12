@@ -1,6 +1,9 @@
 {
   "name": "dstack",
-  "owner": { "name": "rogerzhuuva" },
+  "description": "DStack: development methodology skills that sit on top of gstack and pstack.",
+  "owner": {
+    "name": "rogerzhuuva"
+  },
   "plugins": [
     {
       "name": "dstack",
