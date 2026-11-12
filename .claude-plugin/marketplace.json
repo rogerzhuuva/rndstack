@@ -1,12 +1,12 @@
 {
-  "name": "dstack",
-  "description": "DStack: development methodology skills that sit on top of gstack and pstack.",
+  "name": "rndstack",
+  "description": "RnDStack: development methodology skills that sit on top of gstack and pstack.",
   "owner": {
     "name": "rogerzhuuva"
   },
   "plugins": [
     {
-      "name": "dstack",
+      "name": "rndstack",
       "source": "./",
       "description": "Development methodology skills that sit on top of gstack and pstack."
     }

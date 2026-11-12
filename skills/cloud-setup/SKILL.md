@@ -1,6 +1,6 @@
 ---
 name: cloud-setup
-description: 在 Claude Code 云端会话里安装并保持 gstack、pstack、dstack 可用，以及云端环境特有问题的处理办法：推送被拒、分支显示未推送、合并后的分支怎么继续用。新开云端会话发现技能不在、推送失败、或要给环境配置安装脚本时使用。
+description: 在 Claude Code 云端会话里安装并保持 gstack、pstack、rndstack 可用，以及云端环境特有问题的处理办法：推送被拒、分支显示未推送、合并后的分支怎么继续用。新开云端会话发现技能不在、推送失败、或要给环境配置安装脚本时使用。
 ---
 
 # 云端环境
@@ -25,8 +25,8 @@ fi
 if command -v claude >/dev/null; then
   claude plugin marketplace add cursor/plugins || true
   claude plugin install pstack@cursor-plugins || echo "pstack install failed"
-  claude plugin marketplace add rogerzhuuva/dstack || true
-  claude plugin install dstack@dstack || echo "dstack install failed"
+  claude plugin marketplace add rogerzhuuva/rndstack || true
+  claude plugin install rndstack@rndstack || echo "rndstack install failed"
 fi
 exit 0
 ```

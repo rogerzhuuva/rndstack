@@ -1,10 +1,18 @@
 {
-  "name": "dstack",
-  "version": "0.1.0",
+  "name": "rndstack",
+  "version": "0.2.0",
   "description": "Development methodology skills distilled from real project work. Sits on top of gstack (planning, review, ship) and pstack (implementation) and says which one to use when.",
-  "author": { "name": "rogerzhuuva" },
-  "homepage": "https://github.com/rogerzhuuva/dstack",
-  "repository": "https://github.com/rogerzhuuva/dstack",
+  "author": {
+    "name": "rogerzhuuva"
+  },
+  "homepage": "https://github.com/rogerzhuuva/rndstack",
+  "repository": "https://github.com/rogerzhuuva/rndstack",
   "license": "MIT",
-  "keywords": ["dstack", "methodology", "workflow", "gstack", "pstack"]
+  "keywords": [
+    "rndstack",
+    "methodology",
+    "workflow",
+    "gstack",
+    "pstack"
+  ]
 }
