@@ -1,0 +1,11 @@
+{
+  "name": "dstack",
+  "owner": { "name": "rogerzhuuva" },
+  "plugins": [
+    {
+      "name": "dstack",
+      "source": "./",
+      "description": "Development methodology skills that sit on top of gstack and pstack."
+    }
+  ]
+}
