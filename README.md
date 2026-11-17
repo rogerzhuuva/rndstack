@@ -30,6 +30,8 @@ RnDStack 不重复 [gstack](https://github.com/garrytan/gstack) 和 [pstack](htt
 | `/rndstack:decision-gate` | 哪些事助手自己定，哪些必须用户拍板，怎么一次问清 |
 | `/rndstack:consolidate-spec` | 评审后把设计文档合并成单一正文并存档评审记录 |
 | `/rndstack:cloud-setup` | 云端会话里保持工具可用，以及常见问题的处理 |
+| `/rndstack:delegate-verify` | 把实现交给子代理时怎样切分、写任务说明和验收 |
+| `/rndstack:handoff` | 用户离开或挪到云端时怎样交接，怎样攒一张需本人操作的清单 |
 | `/rndstack:distill` | 把新的方法经验沉淀进这个仓库 |
 
 ## 与 gstack、pstack 的关系
