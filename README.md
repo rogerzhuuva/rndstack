@@ -32,6 +32,7 @@ RnDStack 不重复 [gstack](https://github.com/garrytan/gstack) 和 [pstack](htt
 | `/rndstack:cloud-setup` | 云端会话里保持工具可用，以及常见问题的处理 |
 | `/rndstack:delegate-verify` | 把实现交给子代理时怎样切分、写任务说明和验收 |
 | `/rndstack:handoff` | 用户离开或挪到云端时怎样交接，怎样攒一张需本人操作的清单 |
+| `/rndstack:research-doc-review` | 评审科研项目文档：论证、验证、跨文件一致性、前期继承、知识产权覆盖 |
 | `/rndstack:distill` | 把新的方法经验沉淀进这个仓库 |
 
 ## 与 gstack、pstack 的关系
