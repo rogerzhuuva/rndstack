@@ -20,6 +20,13 @@ RnDStack 不重复 [gstack](https://github.com/garrytan/gstack) 和 [pstack](htt
 
 云端会话的自动安装见 `skills/cloud-setup/SKILL.md`。
 
+## 在其它代理里用（Grok Bot、Cursor、Codex 等）
+
+技能就是 `skills/<名称>/SKILL.md`，不依赖 Claude Code。两种用法：
+
+- 让代理克隆这个仓库，先读根目录的 `AGENTS.md`，它说明了怎么找技能、技能里点名的 gstack 和 pstack 不在时怎么做同样的事。
+- 或者把技能装进代理的技能目录：`scripts/install.sh <目标目录>`。
+
 ## 技能
 
 | 技能 | 作用 |

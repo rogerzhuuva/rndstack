@@ -1,6 +1,6 @@
 {
   "name": "rndstack",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Development methodology skills distilled from real project work. Sits on top of gstack (planning, review, ship) and pstack (implementation) and says which one to use when.",
   "author": {
     "name": "rogerzhuuva"
