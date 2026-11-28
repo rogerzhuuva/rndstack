@@ -41,6 +41,10 @@ RnDStack 不重复 gstack 和 pstack 已有的能力，只规定三件事：按�
 
 实现阶段的切分和验收见 `rndstack:delegate-verify`。用户要离开或挪到云端时见 `rndstack:handoff`。
 
+## 有人质疑设计里的算法或数字时
+
+质疑的是某个公式、阈值、准确率，而不是功能范围时，不走评审，走 `rndstack:doubt-to-experiment`：把质疑写成假设，预先登记判定规则，用实验回答。研究代码放在单独的研究目录，不改正式代码；结论出来以后，要并入的部分再回到上面的第 3 到第 7 阶段。
+
 ## 开始之前
 
 - 确认 gstack 和 pstack 已安装（云端见 `rndstack:cloud-setup`）。
